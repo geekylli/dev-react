@@ -4,9 +4,11 @@ const navigations = [
   { to: '/', label: 'Home' },
   { to: '/about', label: 'About' },
   { to: '/movies', label: 'Movies' },
-  { to: '/movies/tt2975590', label: 'Batman' }
+  { to: '/movies/tt2975590', label: 'Batman' },
+  { to: '/siginin', label: 'Sign In' }
 ]
 export default function Header() {
+  // const token = localStorage.getItem('token')
   return (
     <header>
       <nav className="flex items-center gap-2">
