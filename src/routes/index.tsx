@@ -7,7 +7,7 @@ import About from '@/routes/pages/About'
 import Movies from '@/routes/pages/Movies'
 import MovieDetails from '@/routes/pages/MovieDetails'
 import NotFound from '@/routes/pages/NotFound'
-import SignIn from '@/routes/pages/Signin'
+import Signin from '@/routes/pages/Signin'
 import { requiresAuth } from '@/routes/loaders'
 
 const router = createBrowserRouter([
@@ -35,7 +35,7 @@ const router = createBrowserRouter([
       },
       {
         path: '/signin',
-        element: <SignIn />
+        element: <Signin />
       }
     ]
   },
